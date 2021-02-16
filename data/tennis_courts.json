@@ -1,5 +1,5 @@
-/* data from https://data.cityofnewyork.us/Recreation/Directory-of-Tennis-Courts/dies-sqgi */
-[{
+[
+  {
   "Prop_ID": "X010",
   "Name": "Cary Leeds Tennis Center at Crotona Park",
   "Location": "E. 173d St. and Crotona Ave.",
@@ -74,15 +74,15 @@
 }, {
   "Prop_ID": "X092",
   "Name": "Van Cortlandt Park",
-  "Location": "Stadium - W. 242nd St. and Broadway",
+  "Location": "John Kieran Nature Trail, The Bronx, NY 10471",
   "Phone": "(718) 549-6494",
-  "Courts": "10",
+  "Courts": "6",
   "Indoor_Outdoor": "Outdoor",
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": null,
-  "lat": null,
-  "lon": null
+  "lat": "40.890931838204594",
+  "lon": "-73.89336262952875"
 }, {
   "Prop_ID": "X092",
   "Name": "Van Cortlandt Park",
@@ -112,13 +112,13 @@
   "Name": "Orchard Beach",
   "Location": "1 Orchard Beach Road",
   "Phone": "(718) 885-3247",
-  "Courts": "4",
+  "Courts": "3",
   "Indoor_Outdoor": "Outdoor",
   "Tennis_Type": "Hard",
   "Accessible": "N",
   "Info": null,
-  "lat": null,
-  "lon": null
+  "lat": "40.86965666810484",
+  "lon": "-73.79172589224552"
 }, {
   "Prop_ID": "B007",
   "Name": "Bensonhurst Park",
@@ -129,8 +129,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "N",
   "Info": "Note: Lessons are offered. All 7 courts are bubbled during the indoor season (Approximately, the day after Columbus Day through the last Friday in April) and may be rented for a fee. During the outdoor season, there are 6 courts available to Parks tennis permit holders. For bookings or for more information about tennis at Bensonhurst Park, please visit <a href=\"https:\/\/matchpoint.nyc\/our-clubs\/bensonhurst\/\">Matchpoint NYC<\/a>.",
-  "lat": null,
-  "lon": null
+  "lat": "40.59526176814409",
+  "lon": "-74.00154586458275"
 }, {
   "Prop_ID": "B215",
   "Name": "Decatur Playground",
@@ -234,11 +234,11 @@
   "Phone": "(718) 946-5913",
   "Courts": "7",
   "Indoor_Outdoor": "Outdoor",
-  "Tennis_Type": "",
+  "Tennis_Type": "Hard",
   "Accessible": "N",
   "Info": "Lessons Offered",
-  "lat": null,
-  "lon": null
+  "lat": "40.6045715846173",
+  "lon": "-73.95807266062499"
 }, {
   "Prop_ID": "B052",
   "Name": "Leif Ericson Park",
@@ -333,8 +333,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": "Lessons Offered",
-  "lat": null,
-  "lon": null
+  "lat": "40.62570916480268",
+  "lon": "-74.01763563724525"
 }, {
   "Prop_ID": "B050",
   "Name": "One Van Voorhees Park",
@@ -381,8 +381,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "N",
   "Info": "Lessons Offered",
-  "lat": null,
-  "lon": null
+  "lat": "40.79033162711011",
+  "lon": "-73.96260709138403"
 }, {
   "Prop_ID": "M010",
   "Name": "Central Park",
@@ -393,8 +393,8 @@
   "Tennis_Type": "Fast Dry",
   "Accessible": "N",
   "Info": "Lessons Offered",
-  "lat": null,
-  "lon": null
+  "lat": "40.78995936476281",
+  "lon": "-73.96188083335574"
 }, {
   "Prop_ID": "M144",
   "Name": "Brian Watkins Tennis Center",
@@ -453,8 +453,8 @@
   "Tennis_Type": "Clay",
   "Accessible": "N",
   "Info": null,
-  "lat": null,
-  "lon": null
+  "lat": "40.797705727278725",
+  "lon": "-73.97337473281316"
 }, {
   "Prop_ID": "M071",
   "Name": "Riverside Park",
@@ -465,8 +465,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": "Lessons Offered; contact Dave Kardas at (212) 634-9124 or yourserve@msn.com for more information.",
-  "lat": null,
-  "lon": null
+  "lat": "40.81192057764478",
+  "lon": "-73.96535402766041"
 }, {
   "Prop_ID": "Q004",
   "Name": "Astoria Park",
@@ -537,8 +537,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": "Lessons Offered",
-  "lat": null,
-  "lon": null
+  "lat": "40.77239560584492",
+  "lon": "-73.76863968289646"
 }, {
   "Prop_ID": "Q121",
   "Name": "Det. Keith L. Williams Park",
@@ -561,8 +561,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "N",
   "Info": null,
-  "lat": null,
-  "lon": null
+  "lat": "40.77489711945121",
+  "lon": "-73.8164579252265"
 }, {
   "Prop_ID": "Q015",
   "Name": "Forest Park",
@@ -609,8 +609,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": "Lessons Offered",
-  "lat": null,
-  "lon": null
+  "lat": "40.748508746121196",
+  "lon": "-73.81017852231766"
 }, {
   "Prop_ID": "Q024",
   "Name": "Kissena Park",
@@ -621,8 +621,8 @@
   "Tennis_Type": "Hartro",
   "Accessible": "Y",
   "Info": "Lessons Offered",
-  "lat": null,
-  "lon": null
+  "lat": "40.74761174342224",
+  "lon": "-73.80955782447688"
 }, {
   "Prop_ID": "Q369",
   "Name": "Louis Pasteur Park",
@@ -764,9 +764,9 @@
   "Indoor_Outdoor": "Outdoor",
   "Tennis_Type": "Hard",
   "Accessible": "Y",
-  "Info": null,
-  "lat": null,
-  "lon": null
+  "Info": "Enormous greenspace housing World's Fair monuments plus museums, sports facilities, a zoo & more.",
+  "lat": "40.75175798928376",
+  "lon": "-73.84238804168992"
 }, {
   "Prop_ID": "R123",
   "Name": "Skyline Park",
@@ -861,8 +861,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "N",
   "Info": "Lessons offered. During the indoor\/bubbled season, 10 courts are bubbled (The day after Columbus Day-April 27) and can be rented for a fee. During the Outdoor season 15 courts are available to Parks tennis permit holders. For booking courts and program information please call or visit the <a href=\"https:\/\/cunninghamtennis.com\/\">Cunningham Tennis<\/a> website.",
-  "lat": null,
-  "lon": null
+  "lat": "40.73005780497626",
+  "lon": "-73.77289960008191"
 }, {
   "Prop_ID": "R129",
   "Name": "Greenbelt Recreation Center",
@@ -873,8 +873,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": null,
-  "lat": null,
-  "lon": null
+  "lat": "40.5921",
+  "lon": "-74.1402"
 }, {
   "Prop_ID": "X344",
   "Name": "Stadium Tennis Center at Mill Pond Park",
@@ -885,8 +885,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": "Lessons Offered. During the indoor season (The day after Columbus Day &ndash; April 27), there are 4 outdoor courts available, and 12 courts are bubbled and can be rented for a fee. During the outdoor season, 8 outdoor courts are available to Parks tennis permit holders. For booking courts and program information please call or visit the <a href=\"http:\/\/www.stadiumtennisnyc.com\/\">Stadium Tennis Center<\/a> website for more information.",
-  "lat": null,
-  "lon": null
+  "lat": "40.82351531305513",
+  "lon": "-73.93150222355956"
 }, {
   "Prop_ID": "B407",
   "Name": "South Oxford Park",
@@ -942,11 +942,11 @@
   "Phone": null,
   "Courts": "3",
   "Indoor_Outdoor": "Outdoor",
-  "Tennis_Type": null,
+  "Tennis_Type": "Hard",
   "Accessible": null,
   "Info": null,
-  "lat": null,
-  "lon": null
+  "lat": "40.7604",
+  "lon": "-73.9118"
 }, {
   "Prop_ID": "Q099",
   "Name": "World's Fair Playground",
@@ -971,4 +971,5 @@
   "Info": null,
   "lat": "40.6046",
   "lon": "-73.9578"
-}]
+}
+]
