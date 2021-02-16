@@ -9,7 +9,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYXJlbi1rYWIiLCJhIjoiY2tsMTJhejk3MHhxazJxcW5sb
 
   // let's add the tennis courts to the map!!!
 
-  $.getJSON('./data/tennis_courts.json', function(courts) {
+  $.getJSON('.data\tennis_courts.json', function(courts) {
     console.log(courts)
 
     pizzaRows.forEach(function(court) {
