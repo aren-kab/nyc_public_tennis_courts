@@ -32,9 +32,9 @@
   "Indoor_Outdoor": "Outdoor",
   "Tennis_Type": "Hard",
   "Accessible": "N",
-  "Info": null,
-  "lat": null,
-  "lon": null
+  "Info": "New York City's largest park" ,
+  "lat": "40.867",
+  "lon": "-73.810"
 }, {
   "Prop_ID": "X201",
   "Name": "Seton Park",
@@ -69,8 +69,8 @@
   "Tennis_Type": "Hard",
   "Accessible": "Y",
   "Info": null,
-  "lat": null,
-  "lon": null
+  "lat": "40.8125",
+  "lon": "-73.9135"
 }, {
   "Prop_ID": "X092",
   "Name": "Van Cortlandt Park",
