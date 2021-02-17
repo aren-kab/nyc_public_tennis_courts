@@ -45,5 +45,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYXJlbi1rYWIiLCJhIjoiY2tsMTJhejk3MHhxazJxcW5sb
     })
   })
 
-  var nav = new mapboxgl.NavigationControl();
-  map.addControl(nav, 'top-left');
+    var nav = new mapboxgl.NavigationControl();
+    map.addControl(nav, 'top-left');
+
+    var geocoder = new MapboxGeocoder({ // Initialize the geocoder
+      accessToken: mapboxgl.accessToken, // Set the access token
+      mapboxgl: mapboxgl, // Set the mapbox-gl instance
+      marker: true, // Do not use the default marker style
+    });
+
+  // Add the geocoder to the map
+  map.addControl(geocoder);
