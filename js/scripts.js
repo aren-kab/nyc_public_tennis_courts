@@ -20,6 +20,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYXJlbi1rYWIiLCJhIjoiY2tsMTJhejk3MHhxazJxcW5sb
           <h3>${court.Name}</h3>
           <div><strong>Location:</strong> ${court.Location}</div>
           <div><strong>Type:</strong> ${court.Tennis_Type}</div>
+          <div><strong>Courts:</strong> ${court.Courts}</div>
           <div><i>"${court.Info}"</i></div>
         </div>
       `
@@ -27,12 +28,12 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYXJlbi1rYWIiLCJhIjoiY2tsMTJhejk3MHhxazJxcW5sb
       // Parks with less than 4 courts will be this color
       var color = 'green'
       // Parks with courts between 4 and 8
-      if (court.Courts > 4 && court.Courts < 9) {
-        color = 'yellow'
-      }
+      // if (court.Courts > 4 && court.Courts < 9) {
+      //   color = 'yellow'
+      // }
       // Parks with more than 8 courts will have this color
-      if (court.Courts > 8) {
-        color = 'orange'
+      if (court.Courts > 6) {
+        color = 'yellow'
       }
 
       new mapboxgl.Marker({
