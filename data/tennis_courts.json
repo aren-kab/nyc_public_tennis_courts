@@ -627,7 +627,7 @@
   "Prop_ID": "Q369",
   "Name": "Louis Pasteur Park",
   "Location": "52 Ave. & Marathon Pkwy.",
-  "Phone": null,
+  "Phone": "",
   "Courts": "2",
   "Indoor_Outdoor": "Outdoor",
   "Tennis_Type": "Hard",
