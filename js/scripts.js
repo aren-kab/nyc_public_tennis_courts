@@ -72,15 +72,15 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYXJlbi1rYWIiLCJhIjoiY2tsMTJhejk3MHhxazJxcW5sb
   var el = document.createElement('div');
     el.className = 'marker';
     el.style.backgroundImage ='url("images/tennis_marker.svg")';
-    el.style.width = '35px';
-    el.style.height = '50px';
+    el.style.width = '32px';
+    el.style.height = '44px';
 
 
 
     new mapboxgl.Marker(el,{
        anchor: "bottom"
       })
-    .setPopup(new mapboxgl.Popup({anchor: 'bottom', offset:[0,-48] }).setHTML(html)) // add popup
+    .setPopup(new mapboxgl.Popup({anchor: 'bottom', offset:[0,-44] }).setHTML(html)) // add popup
     .setLngLat([court.lon, court.lat])
     .addTo(map);
     })
