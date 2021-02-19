@@ -10,6 +10,8 @@
   margin: 0 auto;
 }
 
+
+
 .header {
   position: absolute;
   left: 0;
@@ -32,3 +34,14 @@
  .p_text{
    color: white;
  }
+ .marker {
+  display: block;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-size: cover;
+ }
+
+/* .mapboxgl-Popup-conent{
+  top:100px;
+} */
