@@ -15,15 +15,30 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYXJlbi1rYWIiLCJhIjoiY2tsMTJhejk3MHhxazJxcW5sb
     courts.forEach(function(court) {
       console.log(court.Name, court.Prop_ID)
 
-      var html = `
-        <div>
-          <h3>${court.Name}</h3>
-          <div><strong>Location:</strong> ${court.Location}</div>
-          <div><strong>Type:</strong> ${court.Tennis_Type}</div>
-          <div><strong>Courts:</strong> ${court.Courts}</div>
-          <div><i>"${court.Info}"</i></div>
-        </div>
+    if (court.Info !== null){
+
+        var html = `
+          <div>
+            <h3>${court.Name}</h3>
+            <div><strong>Location:</strong> ${court.Location}</div>
+            <div><strong>Type:</strong> ${court.Tennis_Type}</div>
+            <div><strong>Courts:</strong> ${court.Courts}</div>
+            <div><i>"${court.Info}"</i></div>
+          </div>
       `
+      }
+
+      else {
+
+        var html = `
+          <div>
+            <h3>${court.Name}</h3>
+            <div><strong>Location:</strong> ${court.Location}</div>
+            <div><strong>Type:</strong> ${court.Tennis_Type}</div>
+            <div><strong>Courts:</strong> ${court.Courts}</div>
+          </div>
+        `
+      }
 
       // Parks with less than 4 courts will be this color
       var color = 'green'
