@@ -10,18 +10,54 @@
   margin: 0 auto;
 }
 
-
-
 .header {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   background-color: #b1c7b6;
-  color: black;
-  /* text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; */
-  text-align: center;
 }
+
+.title{
+  text-align: center;
+  color: black;
+}
+
+.bodytext{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+.legend{
+  position: absolute;
+  right: 20px;
+  top: 175px;
+  background-color: white;
+  height: 100px;
+  width: 235px;
+}
+
+.caption{
+  margin: 5px;
+  text-align:right;
+  padding-top: 7px;
+  font-weight:550;
+}
+
+.icons{
+  height: 50px;
+  width:30px;
+  padding-left: 7px;
+  padding-bottom: 0px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.caption{
+  display: inline-block;
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -31,9 +67,7 @@
   color: white;
   text-align: center;
 }
- .p_text{
-   color: white;
- }
+
  .marker {
   display: block;
   border: none;
@@ -41,7 +75,3 @@
   padding: 0;
   background-size: cover;
  }
-
-/* .mapboxgl-Popup-conent{
-  top:100px;
-} */
