@@ -36,12 +36,15 @@
   background-color: white;
   height: 100px;
   width: 235px;
+  border: 2px;
+  border-style:dashed;
+  border-color: grey;
 }
 
 .caption{
   margin: 5px;
   text-align:right;
-  padding-top: 7px;
+  padding-top: 8px;
   font-weight:550;
 }
 
